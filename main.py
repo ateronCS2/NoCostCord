@@ -25,7 +25,7 @@ intents.message_content = True
 # loads env variable for local hosting, on Render these are set in the dashboard and accessed as env variables as well
 dotenv.load_dotenv(Path(__file__).parent / 'cfg/.env', verbose=True)
 
-bot = commands.Bot(command_prefix='your_prefix', description=description, intents=intents)
+bot = commands.Bot(command_prefix='&', description=description, intents=intents)
 
 # to add a cog, use bot.load_extension('cogs.your_cog_name') in the main() function below.
 async def main():
