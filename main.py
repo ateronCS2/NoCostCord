@@ -10,7 +10,7 @@ from pathlib import Path
 
 ## Bot Settings
 
-description = """your_bot_description_here"""
+description = """jsp"""
 
 # Intents are required for certain features, you can adjust them as needed.
 intents = discord.Intents.default()
