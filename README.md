@@ -64,7 +64,7 @@ NoCostCord/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/NoCostCord.git
+git clone -b javascript https://github.com/ateronCS2/NoCostCord.git
 cd NoCostCord
 ```
 
@@ -77,7 +77,7 @@ Click the **Fork** button on the GitHub repository page to create your own copy 
 1. Create a new repository on GitHub
 2. Clone NoCostCord locally:
 ```bash
-git clone https://github.com/ateronCS2/NoCostCord.git
+git clone -b javascript https://github.com/ateronCS2/NoCostCord.git
 cd NoCostCord
 ```
 3. Point it to your new repo:
